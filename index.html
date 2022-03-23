@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Single Page</title>
+    <!-- CSS only -->
+    </head>
+<body>
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html"><span class="fa fa-home"> Home</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#About"><span class="fa fa-info fa-lg"></span> About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Gallery"><span class="fa fa-list fa-lg"></span> Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Contact"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+      <!-- Carousel wrapper -->
+      <div
+      id="carouselBasicExample"
+      class="carousel slide carousel-fade"
+      data-mdb-ride="carousel"
+      >
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <!-- Inner -->
+      <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp"
+            class="d-block w-100"
+            alt="Sunset Over the City"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>
+              Nulla vitae elit libero, a pharetra augue mollis interdum.
+            </p>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp"
+            class="d-block w-100"
+            alt="Canyon at Night"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"
+            class="d-block w-100"
+            alt="Cliff Above a Stormy Sea"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Inner -->
+
+      <!-- Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+      <!-- Carousel wrapper -->
+
+      <!--Main Container-->
+      <div class="container">
+        <!--About Us Section-->
+        <div class="row row-content" id="About">
+          <div class="col-12 col-md-4 offset-md-2">
+            <h3>
+              About Us
+            </h3>
+            <p >
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium alias corporis dicta porro officia laborum obcaecati temporibus suscipit maxime sit. Asperiores voluptatem, cupiditate perspiciatis fugiat consectetur adipisci beatae explicabo quod?
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <h3>What we do</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis quos quas aperiam, nam eius nisi recusandae, ex velit quo, hic deleniti itaque corrupti sit quaerat molestias! Quidem, molestiae explicabo.
+            </p>
+          </div>
+          <!--About Us Section-->
+          <hr>
+
+          <!--Gallery Section-->
+            <div>
+              <!-- Gallery -->
+                <div class="row" id="Gallery">
+                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Boat on Calm Water"
+                    />
+
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Wintry Mountain Landscape"
+                    />
+                  </div>
+
+                  <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Mountains in the Clouds"
+                    />
+
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Boat on Calm Water"
+                    />
+                  </div>
+
+                  <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Waves at Sea"
+                    />
+
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Yosemite National Park"
+                    />
+                  </div>
+                </div>
+                <hr>
+              <!-- Gallery -->
+            </div>
+          <!--Gallery Section-->
+        </div>
+        <!--Contact Form-->
+        <div class="row row-content" id="Contact">
+          <div class="col-12">
+            <h2 class="h1-responsive font-weight-bold text-center">Contact us</h2>
+          </div>
+          <div class="col-12">
+            <p class="text-center w-responsive mx-auto"><strong>Do you have any questions?</strong> <br>Please do not hesitate to contact us directly. <br>Our team will come back to you within
+              a matter of hours to help you.</p>
+          </div>
+          <div class="col-12 col-md-8 offset-md-2">
+            <form id="contact-form" name="contact-form" action="" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="form-group mb-0">
+                          <label for="name" class="">Your name</label>
+                          <input type="text" id="name" name="name" class="form-control">
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="form-group mb-0">
+                          <label for="email" class="">Your email</label>
+                          <input type="text" id="email" name="email" class="form-control">
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group mb-0">
+                          <label for="subject" class="">Subject</label>
+                          <input type="text" id="subject" name="subject" class="form-control">
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="form-group">
+                        <label for="message">Your message</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-2">
+                  <button type="submit" class="btn btn-primary btn-md mt-2">Submit</button>
+                </div>
+              </div>
+              <!--Grid row-->
+
+            </form>
+          </div>
+        </div>
+        <!--Contact Form-->
+      </div>
+      <!--Main Container-->
+      <hr>
+      <!--Footer-->
+      <footer class="footer row-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-6 offset-md-2">
+                <span>Get connected with us on social networks:</span>
+              </div>
+              <div class="col-6 col-md">
+                <a href="" class="btn">
+                  <i class="fa fa-facebook-square fa-lg"></i>
+                </a>
+                <a href="" class="btn">
+                  <i class="fa fa-twitter fa-lg"></i>
+                </a>
+                <a href="" class="btn">
+                  <i class="fa fa-google fa-lg"></i>
+                </a>
+                <a href="" class="btn">
+                  <i class="fa fa-instagram fa-lg"></i>
+                </a>
+                <a href="" class="btn">
+                  <i class="fa fa-linkedin fa-lg"></i>
+                </a>
+                <a href="" class="btn">
+                  <i class="fa fa-github fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--Footer-->
+      <div id="copyright">
+        <h6 class="text-white text-center">
+          copyright
+        </h6>
+      </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> 
+    <script src="Js/main.js"></script> 
+    <!-- MDB -->
+    <script src="Js/mdb.min.js"></script>
+</body>
+</html>
