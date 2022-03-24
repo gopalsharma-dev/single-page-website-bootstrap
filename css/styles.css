@@ -2,13 +2,29 @@
     background-color:black;
 }
 .row-content{
-    padding:50px 0px 70px 0px;
+    padding:70px 50px 70px 50px;
+}
+.row-content-team{
+    padding:0px 0px 70px 0px;
 }
 #copyright{
     padding:10px 0px 10px 0px;
-    background-color: grey;
+    background-color: black;
+}
+.footer-text{
+    font-size: 12px;
 }
 hr{
     color: black;
     border:1px solid black;
+}
+@media only screen and (min-width:768px) {
+    .h-720{
+        height: 720px;
+    }    
+}
+@media only screen and (max-width:300px){
+    .h-720{
+        height: 250px;
+    }
 }
